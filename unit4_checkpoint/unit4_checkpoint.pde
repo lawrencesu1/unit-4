@@ -9,6 +9,6 @@ stroke(255);
 
 stroke(255);
 
-for ( int h=-100; h < height; h = h+10) {
-  line(800,h,-1400,height);
+for ( int h=100; h < height; h = h+100) {
+  line(h,800,height,h);
 }
