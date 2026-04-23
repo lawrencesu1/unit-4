@@ -2,13 +2,13 @@
 // Lawrence Su
 // April 17 2026
 
-size ( 800,800);
-background (0);
-
-stroke(255);
-
-stroke(255);
-
-for ( int h=100; h < height; h = h+100) {
-  line(h,800,height,h);
-}
+  size(800, 600);
+  background(0);
+ 
+ for (int y = 0; y < height; y += 50) {
+  for (int x = 0; x < width; x += 50) {
+    for (int x = 50+y);  {
+      rect(x, y, 50, 50);
+    }
+  }
+ }
